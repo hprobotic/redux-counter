@@ -1,0 +1,25 @@
+{
+  "name": "redux-counter",
+  "version": "1.0.0",
+  "description": "Redux store methods getstate dispatch and subscribe",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "author": "Daniel Lewis BSc(Hons)",
+  "license": "ISC",
+  "dependencies": {
+    "jspm": "^0.16.34",
+    "live-server": "^1.0.0"
+  },
+  "jspm": {
+    "dependencies": {
+      "redux": "npm:redux@^3.5.2"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
